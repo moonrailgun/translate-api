@@ -1,0 +1,26 @@
+{
+  "name": "translate-api",
+  "version": "1.0.0",
+  "description": "a web service to translate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonrailgun/translate-api.git"
+  },
+  "author": "moonrailgun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonrailgun/translate-api/issues"
+  },
+  "homepage": "https://github.com/moonrailgun/translate-api#readme",
+  "dependencies": {
+    "google-translate-api": "^2.3.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  }
+}
