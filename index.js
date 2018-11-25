@@ -8,7 +8,9 @@ const Router = require('koa-router');
 let router = new Router();
 
 const google = require('./routers/google');
+const baidu = require('./routers/baidu');
 router.use('/google', google.routes());
+router.use('/baidu', baidu.routes());
 app.use(router.routes());
 
 let port = process.env.PORT || 3000;
